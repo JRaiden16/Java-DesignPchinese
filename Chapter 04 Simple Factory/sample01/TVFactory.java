@@ -4,17 +4,17 @@ public class TVFactory
 	{
 		if(brand.equalsIgnoreCase("Haier"))
 		{
-			System.out.println("电视机工厂生产海尔电视机！");
+			System.out.println("La f谩brica de TV produce Haier TV!");
 			return new HaierTV();
 		}
 		else if(brand.equalsIgnoreCase("Hisense"))
 		{
-			System.out.println("电视机工厂生产海信电视机！");
+			System.out.println("F谩brica de TV produce Hisense TV!");
 			return new HisenseTV();
 		}
 		else
 		{
-			throw new Exception("对不起，暂不能生产该品牌电视机！");
+			throw new Exception("Lo sentimos, no podemos producir esta marca de TV!");
 		}
 	}
 }
